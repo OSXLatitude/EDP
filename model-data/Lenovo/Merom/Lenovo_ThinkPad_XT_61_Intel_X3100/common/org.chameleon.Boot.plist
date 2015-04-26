@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Credits</key>
+	<string>Created with Champlist</string>
+	<key>DropSSDT</key>
+	<string>Yes</string>
+	<key>EnableC2State</key>
+	<string>Yes</string>
+	<key>EnableC3State</key>
+	<string>Yes</string>
+	<key>EnableC4State</key>
+	<string>Yes</string>
+	<key>ForceHPET</key>
+	<string>Yes</string>
+	<key>GenerateCStates</key>
+	<string>Yes</string>
+	<key>GeneratePStates</key>
+	<string>Yes</string>
+	<key>Graphics Mode</key>
+	<string>1024x768x32</string>
+	<key>Kernel</key>
+	<string>mach_kernel</string>
+	<key>Legacy Logo</key>
+	<string>Yes</string>
+	<key>SystemType</key>
+	<string>2</string>
+	<key>Theme</key>
+	<string>Carbon Fiber</string>
+	<key>Timeout</key>
+	<string>1</string>
+	<key>USBBusFix</key>
+	<string>Yes</string>
+	<key>UseKernelCache</key>
+	<string>Yes</string>
+	<key>arch</key>
+	<string>i386</string>
+</dict>
+</plist>

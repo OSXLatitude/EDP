@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Copyright</key>
+	<string>SMBios by OSXLatitude</string>
+	<key>SMbiosvendor</key>
+	<string>Apple Inc.</string>
+	<key>SMbiosversion</key>
+	<string>MBP112.88Z.0138.B02.1310181745</string>
+	<key>SMboardproduct</key>
+	<string>Mac-3CBD00234E554E41</string>
+	<key>SMfamily</key>
+	<string>MacBook Pro</string>
+	<key>SMproductname</key>
+	<string>MacBookPro11,2</string>
+	<key>SMserial</key>
+	<string>C02KPEI5FD56</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>SMbiosvendor</key>
+    <string>Apple Inc.</string>
+    <key>SMbiosversion</key>
+    <string>MBA11.88Z.00BB.B03.0803171226</string>
+    <key>SMboardproduct</key>
+    <string>Mac-F42C8CC8</string>
+    <key>SMexternalclock</key>
+    <string>200</string>
+    <key>SMfamily</key>
+    <string>MacBook Air</string>
+    <key>SMmaximalclock</key>
+    <string>1600</string>
+    <key>SMmemtype</key>
+    <string>19</string>
+    <key>SMproductname</key>
+    <string>MacBookAir1,1</string>
+    <key>SMserial</key>
+    <string>G8817F13Y51</string>
+    <key>SMsystemversion</key>
+    <string>1.0</string>
+    <key>EDPmodel</key>
+    <string>Lenovo_Thinkpad_X61</string>
+  </dict>
+</plist>

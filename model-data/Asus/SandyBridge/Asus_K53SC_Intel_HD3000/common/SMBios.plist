@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Credits</key>
+	<string>Created with Champlist</string>
+	<key>SMbiosvendor</key>
+	<string>Apple Inc.</string>
+	<key>SMbiosversion</key>
+	<string>MBP81.88Z.0047.B27.1201241646</string>
+	<key>SMboardproduct</key>
+	<string>Mac-94245A3940C91C80</string>
+	<key>SMfamily</key>
+	<string>MacBook Pro</string>
+	<key>SMproductname</key>
+	<string>MacBookPro8,2</string>
+	<key>SMserial</key>
+	<string>QT2FKA6EDMGG</string>
+	<key>EDPmodel</key>
+	<string>Asus_K53SC_i3_2330M_HD3000</string>
+</dict>
+</plist>

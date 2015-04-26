@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSDT</key>
+	<string>/Extra/DSDT.aml</string>
+	<key>DropSSDT</key>
+	<string>NO</string>
+	<key>EthernetBuiltIn</key>
+	<string>Yes</string>
+	<key>Instant Menu</key>
+	<string>Yes</string>
+	<key>PciRoot</key>
+	<string>1</string>
+	<key>UseKernelCache</key>
+	<string>NO</string>
+</dict>
+</plist>
