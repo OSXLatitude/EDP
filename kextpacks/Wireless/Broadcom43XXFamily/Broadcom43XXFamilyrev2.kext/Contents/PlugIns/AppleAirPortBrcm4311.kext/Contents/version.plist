@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildVersion</key>
+	<string>6</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.2.1</string>
+	<key>CFBundleVersion</key>
+	<string>421.91.26</string>
+	<key>ProjectName</key>
+	<string>AirPortDriverBrcm4311</string>
+	<key>SourceVersion</key>
+	<string>4219126</string>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleAirPortBrcm43224</string>
+	<key>CFBundleGetInfoString</key>
+	<string>4.2.1, Copyright © 2006–2009 Apple Inc. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AirPortBrcm43224</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AppleAirPortBrcm43224</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.2.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>421.31.6</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Broadcom 802.11 PCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AirPortBrcm43224</string>
+			<key>IOClass</key>
+			<string>AirPort_Brcm43224</string>
+			<key>IOMatchCategory</key>
+			<string>IODefaultMatchCategory</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci14e4,4353</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>TruePowerOff</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IO80211Family</key>
+		<string>300.0</string>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.6.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.0</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>

@@ -1,0 +1,3347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Natit</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.dmweb.Natit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Natit</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Natit</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.dmweb.Natit</string>
+			<key>IOClass</key>
+			<string>com_dmweb_Natit</string>
+			<key>IOMatchCategory</key>
+			<string>IOFramebuffer</string>
+			<key>IONameMatch</key>
+			<string>display</string>
+			<key>IOPCIMatch</key>
+			<string>0x000010de&amp;0x0000ffff 0x00001002&amp;0x0000ffff</string>
+			<key>IOProbeScore</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendors</key>
+			<dict>
+				<key>0x1002</key>
+				<dict>
+					<key>Devices</key>
+					<dict>
+						<key>0x3150</key>
+						<dict>
+							<key>asic</key>
+							<string>M24</string>
+							<key>name</key>
+							<string>Mobility Radeon X600</string>
+						</dict>
+						<key>0x3151</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380</string>
+							<key>name</key>
+							<string>FireMV 2400</string>
+						</dict>
+						<key>0x3152</key>
+						<dict>
+							<key>asic</key>
+							<string>M24</string>
+							<key>name</key>
+							<string>Mobility Radeon X300</string>
+						</dict>
+						<key>0x3154</key>
+						<dict>
+							<key>asic</key>
+							<string>M24GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V3200</string>
+						</dict>
+						<key>0x3171</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380</string>
+							<key>name</key>
+							<string>FireMV 2400 Secondary</string>
+						</dict>
+						<key>0x3E50</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380</string>
+							<key>name</key>
+							<string>Radeon X600/X550 Series</string>
+						</dict>
+						<key>0x3E54</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380GL</string>
+							<key>name</key>
+							<string>FireGL V3200</string>
+						</dict>
+						<key>0x3E70</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380</string>
+							<key>name</key>
+							<string>Radeon X600/X550 Series Secondary</string>
+						</dict>
+						<key>0x3E74</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380GL</string>
+							<key>name</key>
+							<string>FireGL V3200 Secondary</string>
+						</dict>
+						<key>0x4136</key>
+						<dict>
+							<key>asic</key>
+							<string>A3</string>
+							<key>name</key>
+							<string>Radeon IGP 320</string>
+						</dict>
+						<key>0x4137</key>
+						<dict>
+							<key>asic</key>
+							<string>RS200</string>
+							<key>name</key>
+							<string>Radeon IGP 340</string>
+						</dict>
+						<key>0x4144</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9500</string>
+						</dict>
+						<key>0x4146</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9600TX</string>
+						</dict>
+						<key>0x4147</key>
+						<dict>
+							<key>asic</key>
+							<string>R300GL</string>
+							<key>name</key>
+							<string>FireGL Z1</string>
+						</dict>
+						<key>0x4148</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9800 SE</string>
+						</dict>
+						<key>0x4149</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9500 </string>
+						</dict>
+						<key>0x4150</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series</string>
+						</dict>
+						<key>0x4151</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series</string>
+						</dict>
+						<key>0x4152</key>
+						<dict>
+							<key>asic</key>
+							<string>RV360</string>
+							<key>name</key>
+							<string>Radeon 9600 Series</string>
+						</dict>
+						<key>0x4153</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9550</string>
+						</dict>
+						<key>0x4154</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350GL</string>
+							<key>name</key>
+							<string>FireGL T2</string>
+						</dict>
+						<key>0x4155</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series</string>
+						</dict>
+						<key>0x4164</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9500 Secondary</string>
+						</dict>
+						<key>0x4166</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9600TX Secondary</string>
+						</dict>
+						<key>0x4167</key>
+						<dict>
+							<key>asic</key>
+							<string>R300GL</string>
+							<key>name</key>
+							<string>FireGL Z1 Secondary</string>
+						</dict>
+						<key>0x4168</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9800 SE Secondary</string>
+						</dict>
+						<key>0x4169</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9500 Secondary</string>
+						</dict>
+						<key>0x4170</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series Secondary</string>
+						</dict>
+						<key>0x4171</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series Secondary</string>
+						</dict>
+						<key>0x4172</key>
+						<dict>
+							<key>asic</key>
+							<string>RV360</string>
+							<key>name</key>
+							<string>Radeon 9600 Series Secondary</string>
+						</dict>
+						<key>0x4173</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9550 Secondary</string>
+						</dict>
+						<key>0x4174</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350GL</string>
+							<key>name</key>
+							<string>FireGL T2 Secondary</string>
+						</dict>
+						<key>0x4175</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series Secondary</string>
+						</dict>
+						<key>0x4237</key>
+						<dict>
+							<key>asic</key>
+							<string>RS250</string>
+							<key>name</key>
+							<string>Radeon 7000 IGP</string>
+						</dict>
+						<key>0x4242</key>
+						<dict>
+							<key>asic</key>
+							<string>R200</string>
+							<key>name</key>
+							<string>Radeon 8500 AIW</string>
+						</dict>
+						<key>0x4336</key>
+						<dict>
+							<key>asic</key>
+							<string>U1</string>
+							<key>name</key>
+							<string>Radeon IGP 320M</string>
+						</dict>
+						<key>0x4337</key>
+						<dict>
+							<key>asic</key>
+							<string>RS200M</string>
+							<key>name</key>
+							<string>Radeon IGP 340M</string>
+						</dict>
+						<key>0x4437</key>
+						<dict>
+							<key>asic</key>
+							<string>RS250M</string>
+							<key>name</key>
+							<string>Mobility Radeon 7000 IGP</string>
+						</dict>
+						<key>0x4966</key>
+						<dict>
+							<key>asic</key>
+							<string>RV250</string>
+							<key>name</key>
+							<string>Radeon 9000 Series</string>
+						</dict>
+						<key>0x4967</key>
+						<dict>
+							<key>asic</key>
+							<string>RV250</string>
+							<key>name</key>
+							<string>Radeon 9000 Series</string>
+						</dict>
+						<key>0x496E</key>
+						<dict>
+							<key>asic</key>
+							<string>RV250</string>
+							<key>name</key>
+							<string>Radeon 9000 Series Secondary</string>
+						</dict>
+						<key>0x496F</key>
+						<dict>
+							<key>asic</key>
+							<string>RV250</string>
+							<key>name</key>
+							<string>Radeon 9000 Series Secondary</string>
+						</dict>
+						<key>0x4A48</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 Series</string>
+						</dict>
+						<key>0x4A49</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 PRO</string>
+						</dict>
+						<key>0x4A4A</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 Series</string>
+						</dict>
+						<key>0x4A4B</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 XT </string>
+						</dict>
+						<key>0x4A4C</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 Series</string>
+						</dict>
+						<key>0x4A4D</key>
+						<dict>
+							<key>asic</key>
+							<string>R420GL</string>
+							<key>name</key>
+							<string>FireGL X3-256</string>
+						</dict>
+						<key>0x4A4E</key>
+						<dict>
+							<key>asic</key>
+							<string>M18</string>
+							<key>name</key>
+							<string>Mobility Radeon 9800</string>
+						</dict>
+						<key>0x4A4F</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 SE </string>
+						</dict>
+						<key>0x4A50</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 XT Platinum Edition</string>
+						</dict>
+						<key>0x4A54</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 VE</string>
+						</dict>
+						<key>0x4A68</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 Series Secondary</string>
+						</dict>
+						<key>0x4A69</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 PRO Secondary</string>
+						</dict>
+						<key>0x4A6A</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 Series Secondary</string>
+						</dict>
+						<key>0x4A6B</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 XT Secondary</string>
+						</dict>
+						<key>0x4A6C</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 Series Secondary</string>
+						</dict>
+						<key>0x4A6D</key>
+						<dict>
+							<key>asic</key>
+							<string>R420GL</string>
+							<key>name</key>
+							<string>FireGL X3-256 Secondary</string>
+						</dict>
+						<key>0x4A6F</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 SE Secondary</string>
+						</dict>
+						<key>0x4A70</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 XT Platinum Edition Secondary</string>
+						</dict>
+						<key>0x4A74</key>
+						<dict>
+							<key>asic</key>
+							<string>R420</string>
+							<key>name</key>
+							<string>Radeon X800 VE Secondary</string>
+						</dict>
+						<key>0x4B49</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 XT</string>
+						</dict>
+						<key>0x4B4A</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 SE</string>
+						</dict>
+						<key>0x4B4B</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 PRO</string>
+						</dict>
+						<key>0x4B4C</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 XT Platinum Edition</string>
+						</dict>
+						<key>0x4B69</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 XT Secondary</string>
+						</dict>
+						<key>0x4B6A</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 SE Secondary</string>
+						</dict>
+						<key>0x4B6B</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 PRO Secondary</string>
+						</dict>
+						<key>0x4B6C</key>
+						<dict>
+							<key>asic</key>
+							<string>R481</string>
+							<key>name</key>
+							<string>Radeon X850 XT Platinum Edition Secondary</string>
+						</dict>
+						<key>0x4C57</key>
+						<dict>
+							<key>asic</key>
+							<string>M7</string>
+							<key>name</key>
+							<string>Mobility Radeon 7500</string>
+						</dict>
+						<key>0x4C58</key>
+						<dict>
+							<key>asic</key>
+							<string>M7</string>
+							<key>name</key>
+							<string>Mobility FireGL 7800</string>
+						</dict>
+						<key>0x4C59</key>
+						<dict>
+							<key>asic</key>
+							<string>M6</string>
+							<key>name</key>
+							<string>Mobility Radeon</string>
+						</dict>
+						<key>0x4C64</key>
+						<dict>
+							<key>asic</key>
+							<string>M9</string>
+							<key>name</key>
+							<string>Mobility FireGL 9000</string>
+						</dict>
+						<key>0x4C66</key>
+						<dict>
+							<key>asic</key>
+							<string>M9</string>
+							<key>name</key>
+							<string>Mobility / Radeon 9000 </string>
+						</dict>
+						<key>0x4C67</key>
+						<dict>
+							<key>asic</key>
+							<string>D9</string>
+							<key>name</key>
+							<string>Radeon 9000 PRO</string>
+						</dict>
+						<key>0x4C6E</key>
+						<dict>
+							<key>asic</key>
+							<string>M9</string>
+							<key>name</key>
+							<string>Mobility / Radeon 9000 Secondary</string>
+						</dict>
+						<key>0x4C6F</key>
+						<dict>
+							<key>asic</key>
+							<string>D9</string>
+							<key>name</key>
+							<string>Radeon 9000 PRO Secondary</string>
+						</dict>
+						<key>0x4E44</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9700 PRO</string>
+						</dict>
+						<key>0x4E45</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9500 PRO / 9700</string>
+						</dict>
+						<key>0x4E46</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9600 TX</string>
+						</dict>
+						<key>0x4E47</key>
+						<dict>
+							<key>asic</key>
+							<string>R300GL</string>
+							<key>name</key>
+							<string>FireGL X1</string>
+						</dict>
+						<key>0x4E48</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9800 PRO</string>
+						</dict>
+						<key>0x4E49</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9800</string>
+						</dict>
+						<key>0x4E4A</key>
+						<dict>
+							<key>asic</key>
+							<string>R360</string>
+							<key>name</key>
+							<string>Radeon 9800 XT</string>
+						</dict>
+						<key>0x4E4B</key>
+						<dict>
+							<key>asic</key>
+							<string>R350GL</string>
+							<key>name</key>
+							<string>FireGL X2-256/X2-256t</string>
+						</dict>
+						<key>0x4E50</key>
+						<dict>
+							<key>asic</key>
+							<string>M10</string>
+							<key>name</key>
+							<string>Mobility Radeon 9600/9700 Series</string>
+						</dict>
+						<key>0x4E51</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series</string>
+						</dict>
+						<key>0x4E52</key>
+						<dict>
+							<key>asic</key>
+							<string>M10</string>
+							<key>name</key>
+							<string>Mobility Radeon 9500</string>
+						</dict>
+						<key>0x4E54</key>
+						<dict>
+							<key>asic</key>
+							<string>M10GL</string>
+							<key>name</key>
+							<string>Mobility FireGL T2/T2e</string>
+						</dict>
+						<key>0x4E56</key>
+						<dict>
+							<key>asic</key>
+							<string>M12</string>
+							<key>name</key>
+							<string>Mobility Radeon 9550</string>
+						</dict>
+						<key>0x4E64</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9700 PRO Secondary</string>
+						</dict>
+						<key>0x4E65</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9500 PRO / 9700 Secondary</string>
+						</dict>
+						<key>0x4E66</key>
+						<dict>
+							<key>asic</key>
+							<string>R300</string>
+							<key>name</key>
+							<string>Radeon 9600 TX Secondary</string>
+						</dict>
+						<key>0x4E67</key>
+						<dict>
+							<key>asic</key>
+							<string>R300GL</string>
+							<key>name</key>
+							<string>FireGL X1 Secondary</string>
+						</dict>
+						<key>0x4E68</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9800 PRO Secondary</string>
+						</dict>
+						<key>0x4E69</key>
+						<dict>
+							<key>asic</key>
+							<string>R350</string>
+							<key>name</key>
+							<string>Radeon 9800 Secondary</string>
+						</dict>
+						<key>0x4E6A</key>
+						<dict>
+							<key>asic</key>
+							<string>R360</string>
+							<key>name</key>
+							<string>Radeon 9800 XT Secondary</string>
+						</dict>
+						<key>0x4E6B</key>
+						<dict>
+							<key>asic</key>
+							<string>R350GL</string>
+							<key>name</key>
+							<string>FireGL X2-256/X2-256t Secondary</string>
+						</dict>
+						<key>0x4E71</key>
+						<dict>
+							<key>asic</key>
+							<string>RV350</string>
+							<key>name</key>
+							<string>Radeon 9600 Series Secondary</string>
+						</dict>
+						<key>0x5144</key>
+						<dict>
+							<key>asic</key>
+							<string>default</string>
+							<key>name</key>
+							<string>Radeon 7200 Series</string>
+						</dict>
+						<key>0x5148</key>
+						<dict>
+							<key>asic</key>
+							<string>R200GL</string>
+							<key>name</key>
+							<string>FireGL 8800</string>
+						</dict>
+						<key>0x514C</key>
+						<dict>
+							<key>asic</key>
+							<string>R200</string>
+							<key>name</key>
+							<string>Radeon 8500 Series</string>
+						</dict>
+						<key>0x514D</key>
+						<dict>
+							<key>asic</key>
+							<string>R200</string>
+							<key>name</key>
+							<string>Radeon 9100 Series</string>
+						</dict>
+						<key>0x5157</key>
+						<dict>
+							<key>asic</key>
+							<string>RV200</string>
+							<key>name</key>
+							<string>Radeon 7500 Series</string>
+						</dict>
+						<key>0x5159</key>
+						<dict>
+							<key>asic</key>
+							<string>RV100</string>
+							<key>name</key>
+							<string>Radeon 7000 Series</string>
+						</dict>
+						<key>0x515A</key>
+						<dict>
+							<key>asic</key>
+							<string>RV100</string>
+							<key>name</key>
+							<string>Radeon 7000 Series</string>
+						</dict>
+						<key>0x515E</key>
+						<dict>
+							<key>asic</key>
+							<string>RN50</string>
+							<key>name</key>
+							<string>ES1000</string>
+						</dict>
+						<key>0x515F</key>
+						<dict>
+							<key>asic</key>
+							<string>RN50</string>
+							<key>name</key>
+							<string>ES1000</string>
+						</dict>
+						<key>0x5460</key>
+						<dict>
+							<key>asic</key>
+							<string>M22</string>
+							<key>name</key>
+							<string>Mobility Radeon X300</string>
+						</dict>
+						<key>0x5461</key>
+						<dict>
+							<key>asic</key>
+							<string>M22</string>
+							<key>name</key>
+							<string>Mobility Radeon X300</string>
+						</dict>
+						<key>0x5464</key>
+						<dict>
+							<key>asic</key>
+							<string>M22GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V3100</string>
+						</dict>
+						<key>0x5548</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 Series</string>
+						</dict>
+						<key>0x5549</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 GTO</string>
+						</dict>
+						<key>0x554A</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 XT Platinum Edition </string>
+						</dict>
+						<key>0x554B</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 GT</string>
+						</dict>
+						<key>0x554D</key>
+						<dict>
+							<key>asic</key>
+							<string>R430</string>
+							<key>name</key>
+							<string>Radeon X800 XL</string>
+						</dict>
+						<key>0x554E</key>
+						<dict>
+							<key>asic</key>
+							<string>R430</string>
+							<key>name</key>
+							<string>Radeon X800 GT</string>
+						</dict>
+						<key>0x554F</key>
+						<dict>
+							<key>asic</key>
+							<string>R430</string>
+							<key>name</key>
+							<string>Radeon X800</string>
+						</dict>
+						<key>0x5550</key>
+						<dict>
+							<key>asic</key>
+							<string>R423GL</string>
+							<key>name</key>
+							<string>FireGL V7100</string>
+						</dict>
+						<key>0x5551</key>
+						<dict>
+							<key>asic</key>
+							<string>R423GL</string>
+							<key>name</key>
+							<string>FireGL V5100</string>
+						</dict>
+						<key>0x5568</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 Series Secondary</string>
+						</dict>
+						<key>0x5569</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 GTO Secondary</string>
+						</dict>
+						<key>0x556A</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 XT Platinum Edition Secondary</string>
+						</dict>
+						<key>0x556B</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 GT Secondary</string>
+						</dict>
+						<key>0x556D</key>
+						<dict>
+							<key>asic</key>
+							<string>R430</string>
+							<key>name</key>
+							<string>Radeon X800 XL Secondary</string>
+						</dict>
+						<key>0x556E</key>
+						<dict>
+							<key>asic</key>
+							<string>R430</string>
+							<key>name</key>
+							<string>Radeon X800 SE Secondary</string>
+						</dict>
+						<key>0x556F</key>
+						<dict>
+							<key>asic</key>
+							<string>R430</string>
+							<key>name</key>
+							<string>Radeon X800 GTO Secondary</string>
+						</dict>
+						<key>0x5570</key>
+						<dict>
+							<key>asic</key>
+							<string>R423GL</string>
+							<key>name</key>
+							<string>FireGL V7100 Secondary</string>
+						</dict>
+						<key>0x5571</key>
+						<dict>
+							<key>asic</key>
+							<string>R423GL</string>
+							<key>name</key>
+							<string>FireGL V5100 Secondary</string>
+						</dict>
+						<key>0x564A</key>
+						<dict>
+							<key>asic</key>
+							<string>M26GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V5000</string>
+						</dict>
+						<key>0x564B</key>
+						<dict>
+							<key>asic</key>
+							<string>M26GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V5000</string>
+						</dict>
+						<key>0x564F</key>
+						<dict>
+							<key>asic</key>
+							<string>M26</string>
+							<key>name</key>
+							<string>Mobility Radeon X700 XL</string>
+						</dict>
+						<key>0x5652</key>
+						<dict>
+							<key>asic</key>
+							<string>M26</string>
+							<key>name</key>
+							<string>Mobility Radeon X700</string>
+						</dict>
+						<key>0x5653</key>
+						<dict>
+							<key>asic</key>
+							<string>M26</string>
+							<key>name</key>
+							<string>Mobility Radeon X700 </string>
+						</dict>
+						<key>0x5657</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 Series</string>
+						</dict>
+						<key>0x5673</key>
+						<dict>
+							<key>asic</key>
+							<string>M26</string>
+							<key>name</key>
+							<string>Mobility Radeon X700 Secondary</string>
+						</dict>
+						<key>0x5677</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 Series Secondary</string>
+						</dict>
+						<key>0x5834</key>
+						<dict>
+							<key>asic</key>
+							<string>RS300</string>
+							<key>name</key>
+							<string>Radeon 9000/9100 IGP Series</string>
+						</dict>
+						<key>0x5835</key>
+						<dict>
+							<key>asic</key>
+							<string>RS300M</string>
+							<key>name</key>
+							<string>Mobility Radeon 9000/9100 IGP Series</string>
+						</dict>
+						<key>0x5854</key>
+						<dict>
+							<key>asic</key>
+							<string>RS480</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5874</key>
+						<dict>
+							<key>asic</key>
+							<string>RS482</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5940</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250 Secondary</string>
+						</dict>
+						<key>0x5941</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250/9200 Series Secondary</string>
+						</dict>
+						<key>0x5942</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250/9200 Series Secondary</string>
+						</dict>
+						<key>0x5954</key>
+						<dict>
+							<key>asic</key>
+							<string>RS480</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5955</key>
+						<dict>
+							<key>asic</key>
+							<string>RS480M</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5960</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250</string>
+						</dict>
+						<key>0x5961</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250/9200 Series</string>
+						</dict>
+						<key>0x5962</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250/9200 Series</string>
+						</dict>
+						<key>0x5964</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250/9200 Series</string>
+						</dict>
+						<key>0x5965</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>FireMV 2200 PCI</string>
+						</dict>
+						<key>0x5969</key>
+						<dict>
+							<key>asic</key>
+							<string>RN50</string>
+							<key>name</key>
+							<string>ES1000</string>
+						</dict>
+						<key>0x5974</key>
+						<dict>
+							<key>asic</key>
+							<string>RS482</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5975</key>
+						<dict>
+							<key>asic</key>
+							<string>RS482M</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5A41</key>
+						<dict>
+							<key>asic</key>
+							<string>RS400</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5A42</key>
+						<dict>
+							<key>asic</key>
+							<string>RS400M</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5A43</key>
+						<dict>
+							<key>asic</key>
+							<string>RS400</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5A61</key>
+						<dict>
+							<key>asic</key>
+							<string>RC410</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5A62</key>
+						<dict>
+							<key>asic</key>
+							<string>RC410M</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5A63</key>
+						<dict>
+							<key>asic</key>
+							<string>RC410</string>
+							<key>name</key>
+							<string>Radeon Xpress Series</string>
+						</dict>
+						<key>0x5B60</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370</string>
+							<key>name</key>
+							<string>Radeon X300/X550 Series</string>
+						</dict>
+						<key>0x5B62</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380x</string>
+							<key>name</key>
+							<string>Radeon X600 Series</string>
+						</dict>
+						<key>0x5B63</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370</string>
+							<key>name</key>
+							<string>Radeon X550</string>
+						</dict>
+						<key>0x5B64</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370GL</string>
+							<key>name</key>
+							<string>FireGL V3100</string>
+						</dict>
+						<key>0x5B65</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370</string>
+							<key>name</key>
+							<string>FireMV 2200</string>
+						</dict>
+						<key>0x5B70</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370</string>
+							<key>name</key>
+							<string>Radeon X300/X550 Series Secondary</string>
+						</dict>
+						<key>0x5B72</key>
+						<dict>
+							<key>asic</key>
+							<string>RV380x</string>
+							<key>name</key>
+							<string>Radeon X600 Series Secondary</string>
+						</dict>
+						<key>0x5B73</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370</string>
+							<key>name</key>
+							<string>Radeon X550 Secondary</string>
+						</dict>
+						<key>0x5B74</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370GL</string>
+							<key>name</key>
+							<string>FireGL V3100 Secondary</string>
+						</dict>
+						<key>0x5B75</key>
+						<dict>
+							<key>asic</key>
+							<string>RV370</string>
+							<key>name</key>
+							<string>FireMV 2200 Secondary</string>
+						</dict>
+						<key>0x5C41</key>
+						<dict>
+							<key>asic</key>
+							<string>M9Plus</string>
+							<key>name</key>
+							<string>Mobility / Radeon 9200 Secondary</string>
+						</dict>
+						<key>0x5C43</key>
+						<dict>
+							<key>asic</key>
+							<string>M9Plus</string>
+							<key>name</key>
+							<string>Mobility / Radeon 9200 Secondary</string>
+						</dict>
+						<key>0x5C61</key>
+						<dict>
+							<key>asic</key>
+							<string>M9Plus</string>
+							<key>name</key>
+							<string>Mobility / Radeon 9200 </string>
+						</dict>
+						<key>0x5C63</key>
+						<dict>
+							<key>asic</key>
+							<string>M9Plus</string>
+							<key>name</key>
+							<string>Mobility / Radeon 9200</string>
+						</dict>
+						<key>0x5D44</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>Radeon 9250/9200 Series Secondary</string>
+						</dict>
+						<key>0x5D45</key>
+						<dict>
+							<key>asic</key>
+							<string>RV280</string>
+							<key>name</key>
+							<string>FireMV 2200 PCI Secondary</string>
+						</dict>
+						<key>0x5D48</key>
+						<dict>
+							<key>asic</key>
+							<string>M28</string>
+							<key>name</key>
+							<string>Mobility Radeon X800 XT</string>
+						</dict>
+						<key>0x5D49</key>
+						<dict>
+							<key>asic</key>
+							<string>M28GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V5100</string>
+						</dict>
+						<key>0x5D4A</key>
+						<dict>
+							<key>asic</key>
+							<string>M28</string>
+							<key>name</key>
+							<string>Mobility Radeon X800</string>
+						</dict>
+						<key>0x5D4D</key>
+						<dict>
+							<key>asic</key>
+							<string>R480</string>
+							<key>name</key>
+							<string>Radeon X850 XT Platinum Edition</string>
+						</dict>
+						<key>0x5D4F</key>
+						<dict>
+							<key>asic</key>
+							<string>R480</string>
+							<key>name</key>
+							<string>Radeon X800 GTO</string>
+						</dict>
+						<key>0x5D50</key>
+						<dict>
+							<key>asic</key>
+							<string>R480GL</string>
+							<key>name</key>
+							<string>FireGL V7200</string>
+						</dict>
+						<key>0x5D52</key>
+						<dict>
+							<key>asic</key>
+							<string>R480</string>
+							<key>name</key>
+							<string>Radeon X850 XT</string>
+						</dict>
+						<key>0x5D57</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 XT</string>
+						</dict>
+						<key>0x5D6D</key>
+						<dict>
+							<key>asic</key>
+							<string>R480</string>
+							<key>name</key>
+							<string>Radeon X850 XT Platinum Edition Secondary</string>
+						</dict>
+						<key>0x5D6F</key>
+						<dict>
+							<key>asic</key>
+							<string>R480</string>
+							<key>name</key>
+							<string>Radeon X850 PRO Secondary</string>
+						</dict>
+						<key>0x5D70</key>
+						<dict>
+							<key>asic</key>
+							<string>R480GL</string>
+							<key>name</key>
+							<string>FireGL V7200 Secondary</string>
+						</dict>
+						<key>0x5D72</key>
+						<dict>
+							<key>asic</key>
+							<string>R480</string>
+							<key>name</key>
+							<string>Radeon X850 XT Secondary</string>
+						</dict>
+						<key>0x5D77</key>
+						<dict>
+							<key>asic</key>
+							<string>R423</string>
+							<key>name</key>
+							<string>Radeon X800 XT Secondary</string>
+						</dict>
+						<key>0x5E48</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410GL</string>
+							<key>name</key>
+							<string>FireGL V5000</string>
+						</dict>
+						<key>0x5E49</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410GL</string>
+							<key>name</key>
+							<string>FireGL V3300</string>
+						</dict>
+						<key>0x5E4A</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 XT</string>
+						</dict>
+						<key>0x5E4B</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 PRO</string>
+						</dict>
+						<key>0x5E4C</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 SE</string>
+						</dict>
+						<key>0x5E4D</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700</string>
+						</dict>
+						<key>0x5E4F</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700/X500 Series</string>
+						</dict>
+						<key>0x5E68</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410GL</string>
+							<key>name</key>
+							<string>FireGL V5000 Secondary</string>
+						</dict>
+						<key>0x5E6A</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 XT Secondary</string>
+						</dict>
+						<key>0x5E6B</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 PRO Secondary</string>
+						</dict>
+						<key>0x5E6C</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 SE Secondary</string>
+						</dict>
+						<key>0x5E6D</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700 Secondary</string>
+						</dict>
+						<key>0x5E6F</key>
+						<dict>
+							<key>asic</key>
+							<string>RV410</string>
+							<key>name</key>
+							<string>Radeon X700/X500 Series Secondary</string>
+						</dict>
+						<key>0x7100</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series</string>
+						</dict>
+						<key>0x7101</key>
+						<dict>
+							<key>asic</key>
+							<string>M58</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Mobility Radeon X1800 XT</string>
+						</dict>
+						<key>0x7102</key>
+						<dict>
+							<key>asic</key>
+							<string>M58</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Mobility Radeon X1800</string>
+						</dict>
+						<key>0x7103</key>
+						<dict>
+							<key>asic</key>
+							<string>M58GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V7200</string>
+						</dict>
+						<key>0x7104</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V7200 </string>
+						</dict>
+						<key>0x7105</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V5300</string>
+						</dict>
+						<key>0x7106</key>
+						<dict>
+							<key>asic</key>
+							<string>M58GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V7100</string>
+						</dict>
+						<key>0x7108</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series</string>
+						</dict>
+						<key>0x7109</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series</string>
+						</dict>
+						<key>0x710A</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series</string>
+						</dict>
+						<key>0x710B</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series</string>
+						</dict>
+						<key>0x710C</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series</string>
+						</dict>
+						<key>0x710E</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V7300</string>
+						</dict>
+						<key>0x710F</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V7350</string>
+						</dict>
+						<key>0x7120</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series Secondary</string>
+						</dict>
+						<key>0x7124</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V7200 Secondary</string>
+						</dict>
+						<key>0x7125</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V5300 Secondary</string>
+						</dict>
+						<key>0x7128</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series Secondary</string>
+						</dict>
+						<key>0x7129</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series Secondary</string>
+						</dict>
+						<key>0x712A</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series Secondary</string>
+						</dict>
+						<key>0x712B</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series Secondary</string>
+						</dict>
+						<key>0x712C</key>
+						<dict>
+							<key>asic</key>
+							<string>R520</string>
+							<key>entriesToAddKey</key>
+							<string>X1800</string>
+							<key>name</key>
+							<string>Radeon X1800 Series Secondary</string>
+						</dict>
+						<key>0x712E</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V7300 Secondary</string>
+						</dict>
+						<key>0x712F</key>
+						<dict>
+							<key>asic</key>
+							<string>R520GL</string>
+							<key>name</key>
+							<string>FireGL V7350 Secondary</string>
+						</dict>
+						<key>0x7140</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series</string>
+						</dict>
+						<key>0x7142</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7143</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 PRO</string>
+						</dict>
+						<key>0x7145</key>
+						<dict>
+							<key>asic</key>
+							<string>M54</string>
+							<key>name</key>
+							<string>Mobility Radeon X1400</string>
+						</dict>
+						<key>0x7146</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7147</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7149</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1300</string>
+						</dict>
+						<key>0x714A</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1300</string>
+						</dict>
+						<key>0x714B</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1300</string>
+						</dict>
+						<key>0x714C</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1300</string>
+						</dict>
+						<key>0x714D</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x714E</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7152</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515GL</string>
+							<key>name</key>
+							<string>FireGL V3300 </string>
+						</dict>
+						<key>0x715E</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x715F</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7160</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series Secondary</string>
+						</dict>
+						<key>0x7162</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x7163</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 PRO Secondary</string>
+						</dict>
+						<key>0x7166</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x7167</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x716D</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x716E</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x7172</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515GL</string>
+							<key>name</key>
+							<string>FireGL V3300 Secondary</string>
+						</dict>
+						<key>0x717E</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x717F</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x7180</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7181</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series</string>
+						</dict>
+						<key>0x7183</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x7186</key>
+						<dict>
+							<key>asic</key>
+							<string>M54</string>
+							<key>name</key>
+							<string>Mobility Radeon X1450 </string>
+						</dict>
+						<key>0x7187</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x718B</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1350</string>
+						</dict>
+						<key>0x718C</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1350</string>
+						</dict>
+						<key>0x718D</key>
+						<dict>
+							<key>asic</key>
+							<string>M54</string>
+							<key>name</key>
+							<string>Mobility Radeon X1450</string>
+						</dict>
+						<key>0x7196</key>
+						<dict>
+							<key>asic</key>
+							<string>M52</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Mobility Radeon X1350</string>
+						</dict>
+						<key>0x71A0</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x71A1</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series Secondary</string>
+						</dict>
+						<key>0x71A3</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x71A7</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x71C0</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series</string>
+						</dict>
+						<key>0x71C1</key>
+						<dict>
+							<key>asic</key>
+							<string>RV535</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1650 Series</string>
+						</dict>
+						<key>0x71C2</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series</string>
+						</dict>
+						<key>0x71C3</key>
+						<dict>
+							<key>asic</key>
+							<string>RV515</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x71C4</key>
+						<dict>
+							<key>asic</key>
+							<string>M56GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V5200</string>
+						</dict>
+						<key>0x71C5</key>
+						<dict>
+							<key>asic</key>
+							<string>M56</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Mobility Radeon X1600</string>
+						</dict>
+						<key>0x71C6</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1650 Series</string>
+						</dict>
+						<key>0x71CD</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series</string>
+						</dict>
+						<key>0x71CE</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series</string>
+						</dict>
+						<key>0x71D2</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530GL</string>
+							<key>name</key>
+							<string>FireGL V3400 </string>
+						</dict>
+						<key>0x71D4</key>
+						<dict>
+							<key>asic</key>
+							<string>M56GL</string>
+							<key>name</key>
+							<string>Mobility FireGL V5250</string>
+						</dict>
+						<key>0x71D6</key>
+						<dict>
+							<key>asic</key>
+							<string>M56</string>
+							<key>name</key>
+							<string>Mobility Radeon X1700</string>
+						</dict>
+						<key>0x71DA</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530GL</string>
+							<key>name</key>
+							<string>FireGL V5200</string>
+						</dict>
+						<key>0x71DE</key>
+						<dict>
+							<key>asic</key>
+							<string>M56</string>
+							<key>name</key>
+							<string>Mobility Radeon X1700</string>
+						</dict>
+						<key>0x71E0</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series Secondary</string>
+						</dict>
+						<key>0x71E1</key>
+						<dict>
+							<key>asic</key>
+							<string>RV535</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1650 Series Secondary</string>
+						</dict>
+						<key>0x71E2</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series Secondary</string>
+						</dict>
+						<key>0x71E3</key>
+						<dict>
+							<key>asic</key>
+							<string>RV535</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x71E6</key>
+						<dict>
+							<key>asic</key>
+							<string>RV53</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1650 Series Secondary</string>
+						</dict>
+						<key>0x71ED</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1600 Series Secondary</string>
+						</dict>
+						<key>0x71EE</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530</string>
+							<key>entriesToAddKey</key>
+							<string>X1300</string>
+							<key>name</key>
+							<string>Radeon X1300 Series Secondary</string>
+						</dict>
+						<key>0x71F2</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530GL</string>
+							<key>name</key>
+							<string>FireGL V3400 Secondary</string>
+						</dict>
+						<key>0x71FA</key>
+						<dict>
+							<key>asic</key>
+							<string>RV530GL</string>
+							<key>name</key>
+							<string>FireGL V5200 Secondary</string>
+						</dict>
+						<key>0x7240</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1950 Series</string>
+						</dict>
+						<key>0x7243</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x7244</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1950 Series</string>
+						</dict>
+						<key>0x7245</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x7246</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x7247</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x7248</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x7249</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x724A</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x724B</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x724C</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x724D</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x724F</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series</string>
+						</dict>
+						<key>0x7260</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1950 Series Secondary</string>
+						</dict>
+						<key>0x7263</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x7264</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1950 Series Secondary</string>
+						</dict>
+						<key>0x7265</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x7266</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x7267</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x7268</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x7269</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x726A</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x726B</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x726C</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x726D</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x726F</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1900 Series Secondary</string>
+						</dict>
+						<key>0x7280</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1950 Series</string>
+						</dict>
+						<key>0x7291</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1650 Series</string>
+						</dict>
+						<key>0x72A0</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1900</string>
+							<key>name</key>
+							<string>Radeon X1950 Series Secondary</string>
+						</dict>
+						<key>0x72B1</key>
+						<dict>
+							<key>asic</key>
+							<string>R580</string>
+							<key>entriesToAddKey</key>
+							<string>X1600</string>
+							<key>name</key>
+							<string>Radeon X1650 Series Secondary</string>
+						</dict>
+						<key>0x7834</key>
+						<dict>
+							<key>asic</key>
+							<string>RS350</string>
+							<key>name</key>
+							<string>Radeon 9000/9100 PRO IGP Series</string>
+						</dict>
+						<key>0x7835</key>
+						<dict>
+							<key>asic</key>
+							<string>RS300M</string>
+							<key>name</key>
+							<string>Mobility Radeon 9000 IGP</string>
+						</dict>
+						<key>0x791E</key>
+						<dict>
+							<key>asic</key>
+							<string>RS690</string>
+							<key>name</key>
+							<string>Radeon Xpress 1200 Series</string>
+						</dict>
+						<key>0x791F</key>
+						<dict>
+							<key>asic</key>
+							<string>RS690M</string>
+							<key>name</key>
+							<string>Radeon Xpress 1200 Series</string>
+						</dict>
+						<key>0x793F</key>
+						<dict>
+							<key>asic</key>
+							<string>RS600</string>
+							<key>name</key>
+							<string>Radeon Xpress 1200 Series</string>
+						</dict>
+						<key>0x7941</key>
+						<dict>
+							<key>asic</key>
+							<string>RS600</string>
+							<key>name</key>
+							<string>Radeon Xpress 1200 Series</string>
+						</dict>
+						<key>0x7942</key>
+						<dict>
+							<key>asic</key>
+							<string>RS600M</string>
+							<key>name</key>
+							<string>Radeon Xpress 1200 Series</string>
+						</dict>
+					</dict>
+					<key>entriesToAdd</key>
+					<dict>
+						<key>X1300</key>
+						<dict>
+							<key>@0,compatible</key>
+							<string>ATY,Caretta</string>
+							<key>@0,device_type</key>
+							<string>display</string>
+							<key>@0,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@0,name</key>
+							<string>ATY,Caretta</string>
+							<key>@1,compatible</key>
+							<string>ATY,Caretta</string>
+							<key>@1,device_type</key>
+							<string>display</string>
+							<key>@1,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@1,name</key>
+							<string>ATY,Caretta</string>
+							<key>device_type</key>
+							<string>ATY,CarettaParent</string>
+						</dict>
+						<key>X1600</key>
+						<dict>
+							<key>@0,compatible</key>
+							<string>ATY,Wormy</string>
+							<key>@0,device_type</key>
+							<string>display</string>
+							<key>@0,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@0,name</key>
+							<string>ATY,Wormy</string>
+							<key>@1,compatible</key>
+							<string>ATY,Wormy</string>
+							<key>@1,device_type</key>
+							<string>display</string>
+							<key>@1,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@1,name</key>
+							<string>ATY,Wormy</string>
+							<key>device_type</key>
+							<string>ATY,WormyParent</string>
+						</dict>
+						<key>X1800</key>
+						<dict>
+							<key>@0,compatible</key>
+							<string>ATY,Alopias</string>
+							<key>@0,device_type</key>
+							<string>display</string>
+							<key>@0,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@0,name</key>
+							<string>ATY,Alopias</string>
+							<key>@1,compatible</key>
+							<string>ATY,Alopias</string>
+							<key>@1,device_type</key>
+							<string>display</string>
+							<key>@1,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@1,name</key>
+							<string>ATY,Alopias</string>
+							<key>device_type</key>
+							<string>ATY,AlopiasParent</string>
+						</dict>
+						<key>X1900</key>
+						<dict>
+							<key>@0,compatible</key>
+							<string>ATY,Sphyrna</string>
+							<key>@0,device_type</key>
+							<string>display</string>
+							<key>@0,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@0,name</key>
+							<string>ATY,Sphyrna</string>
+							<key>@1,compatible</key>
+							<string>ATY,Sphyrna</string>
+							<key>@1,device_type</key>
+							<string>display</string>
+							<key>@1,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@1,name</key>
+							<string>ATY,Sphyrna</string>
+							<key>device_type</key>
+							<string>ATY,SphyrnaParent</string>
+						</dict>
+						<key>default</key>
+						<dict>
+							<key>@0,compatible</key>
+							<string>ATY,Alopias</string>
+							<key>@0,device_type</key>
+							<string>display</string>
+							<key>@0,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@0,name</key>
+							<string>ATY,Alopias</string>
+							<key>@1,compatible</key>
+							<string>ATY,Alopias</string>
+							<key>@1,device_type</key>
+							<string>display</string>
+							<key>@1,display-connect-flags</key>
+							<integer>1024</integer>
+							<key>@1,name</key>
+							<string>ATY,Alopias</string>
+							<key>device_type</key>
+							<string>ATY,AlopiasParent</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>ATI</string>
+				</dict>
+				<key>0x10DE</key>
+				<dict>
+					<key>Devices</key>
+					<dict>
+						<key>0X033F</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 700</string>
+						</dict>
+						<key>0x0040</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 Ultra</string>
+						</dict>
+						<key>0x0041</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800</string>
+						</dict>
+						<key>0x0043</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 XE</string>
+						</dict>
+						<key>0x0045</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 GT</string>
+						</dict>
+						<key>0x0047</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 GS</string>
+						</dict>
+						<key>0x0048</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 XT</string>
+						</dict>
+						<key>0x004E</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 4000</string>
+						</dict>
+						<key>0x0091</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7800 GTX</string>
+						</dict>
+						<key>0x0092</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7800 GT</string>
+						</dict>
+						<key>0x0098</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 7800</string>
+						</dict>
+						<key>0x0099</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 7800 GTX</string>
+						</dict>
+						<key>0x009D</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 4500</string>
+						</dict>
+						<key>0x00C0</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 GS</string>
+						</dict>
+						<key>0x00C1</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800</string>
+						</dict>
+						<key>0x00C2</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 LE</string>
+						</dict>
+						<key>0x00C3</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 XT</string>
+						</dict>
+						<key>0x00CC</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX Go1400</string>
+						</dict>
+						<key>0x00CD</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 3450/4000 SDI</string>
+						</dict>
+						<key>0x00CE</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 1400</string>
+						</dict>
+						<key>0x00F1</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600 GT</string>
+						</dict>
+						<key>0x00F2</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600</string>
+						</dict>
+						<key>0x00F3</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6200</string>
+						</dict>
+						<key>0x00F4</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600 LE</string>
+						</dict>
+						<key>0x00F5</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7800 GS</string>
+						</dict>
+						<key>0x00F6</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 GS</string>
+						</dict>
+						<key>0x00F8</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 3400/4400</string>
+						</dict>
+						<key>0x00F9</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 Series GPU</string>
+						</dict>
+						<key>0x00FA</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce PCX 5750</string>
+						</dict>
+						<key>0x00FB</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce PCX 5900</string>
+						</dict>
+						<key>0x00FD</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro PCI-E Series</string>
+						</dict>
+						<key>0x00FE</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 1300</string>
+						</dict>
+						<key>0x00c8</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 6800</string>
+						</dict>
+						<key>0x00c9</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 6800 Ultra</string>
+						</dict>
+						<key>0x0110</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce2 MX/MX 400</string>
+						</dict>
+						<key>0x0111</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce2 MX200</string>
+						</dict>
+						<key>0x0113</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro2 MXR/EX</string>
+						</dict>
+						<key>0x0140</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600 GT</string>
+						</dict>
+						<key>0x0141</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600</string>
+						</dict>
+						<key>0x0142</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600 LE</string>
+						</dict>
+						<key>0x0143</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6600 VE</string>
+						</dict>
+						<key>0x0147</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6700 XL</string>
+						</dict>
+						<key>0x0148</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 6600</string>
+						</dict>
+						<key>0x014C</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 540 MXM</string>
+						</dict>
+						<key>0x014E</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 540</string>
+						</dict>
+						<key>0x014F</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6200</string>
+						</dict>
+						<key>0x0160</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6500</string>
+						</dict>
+						<key>0x0161</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6200 TurboCache(TM)</string>
+						</dict>
+						<key>0x0162</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6200SE TurboCache(TM)</string>
+						</dict>
+						<key>0x0163</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6200 LE</string>
+						</dict>
+						<key>0x0165</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro NVS 285</string>
+						</dict>
+						<key>0x0167</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 6200/6400</string>
+						</dict>
+						<key>0x0168</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 6200/6400</string>
+						</dict>
+						<key>0x0170</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 MX 460</string>
+						</dict>
+						<key>0x0171</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 MX 440</string>
+						</dict>
+						<key>0x0172</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 MX 420</string>
+						</dict>
+						<key>0x0173</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 MX 440-SE</string>
+						</dict>
+						<key>0x0178</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 550 XGL</string>
+						</dict>
+						<key>0x017A</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro NVS</string>
+						</dict>
+						<key>0x0181</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 MX 440 with AGP8X</string>
+						</dict>
+						<key>0x0185</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce MX 4000</string>
+						</dict>
+						<key>0x0188</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 580 XGL</string>
+						</dict>
+						<key>0x018A</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro NVS with AGP8X</string>
+						</dict>
+						<key>0x018B</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 380 XGL</string>
+						</dict>
+						<key>0x01D1</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7300 LE</string>
+						</dict>
+						<key>0x01D3</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7300 SE</string>
+						</dict>
+						<key>0x01DD</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7500 LE</string>
+						</dict>
+						<key>0x01DF</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7300 GS</string>
+						</dict>
+						<key>0x0200</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce3</string>
+						</dict>
+						<key>0x0201</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce3 Ti200</string>
+						</dict>
+						<key>0x0202</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce3 Ti500</string>
+						</dict>
+						<key>0x0203</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro DCC</string>
+						</dict>
+						<key>0x0218</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6800 XT</string>
+						</dict>
+						<key>0x0221</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 6200</string>
+						</dict>
+						<key>0x0241</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA GeForce 6150 LE</string>
+						</dict>
+						<key>0x0242</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA GeForce 6100</string>
+						</dict>
+						<key>0x0245</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA Quadro NVS 210S / NVIDIA GeForce 6150LE</string>
+						</dict>
+						<key>0x0250</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 Ti 4600</string>
+						</dict>
+						<key>0x0251</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 Ti 4400</string>
+						</dict>
+						<key>0x0253</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 Ti 4200</string>
+						</dict>
+						<key>0x0258</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 900 XGL</string>
+						</dict>
+						<key>0x0259</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 750 XGL</string>
+						</dict>
+						<key>0x025B</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 700 XGL</string>
+						</dict>
+						<key>0x0280</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 Ti 4800</string>
+						</dict>
+						<key>0x0281</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 Ti 4200 with AGP8X</string>
+						</dict>
+						<key>0x0282</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce4 Ti 4800SE</string>
+						</dict>
+						<key>0x0288</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 980 XGL</string>
+						</dict>
+						<key>0x028C</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro4 Go700</string>
+						</dict>
+						<key>0x0290</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7900 GTX</string>
+						</dict>
+						<key>0x0291</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7900 GT/GTO</string>
+						</dict>
+						<key>0x0293</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7900 GX2</string>
+						</dict>
+						<key>0x0294</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7950 GX2</string>
+						</dict>
+						<key>0x0295</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA GeForce 7950 GT</string>
+						</dict>
+						<key>0x0298</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 7900 GS</string>
+						</dict>
+						<key>0x0299</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce Go 7900 GTX</string>
+						</dict>
+						<key>0x029C</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA Quadro FX 5500</string>
+						</dict>
+						<key>0x029F</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 4500 X2</string>
+						</dict>
+						<key>0x02E1</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7600 GS</string>
+						</dict>
+						<key>0x0301</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5800 Ultra</string>
+						</dict>
+						<key>0x0302</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5800</string>
+						</dict>
+						<key>0x0308</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 2000</string>
+						</dict>
+						<key>0x0309</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 1000</string>
+						</dict>
+						<key>0x0311</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5600 Ultra</string>
+						</dict>
+						<key>0x0312</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5600</string>
+						</dict>
+						<key>0x0314</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5600XT</string>
+						</dict>
+						<key>0x031A</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX Go5600</string>
+						</dict>
+						<key>0x031C</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX Go700</string>
+						</dict>
+						<key>0x0321</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5200 Ultra</string>
+						</dict>
+						<key>0x0322</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5200</string>
+						</dict>
+						<key>0x0323</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5200LE</string>
+						</dict>
+						<key>0x0324</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX Go5200 64M</string>
+						</dict>
+						<key>0x0326</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5500</string>
+						</dict>
+						<key>0x032A</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro NVS 280 PCI</string>
+						</dict>
+						<key>0x032B</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 500/FX 600</string>
+						</dict>
+						<key>0x0330</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5900 Ultra</string>
+						</dict>
+						<key>0x0331</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5900</string>
+						</dict>
+						<key>0x0333</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5950 Ultra</string>
+						</dict>
+						<key>0x0338</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 3000</string>
+						</dict>
+						<key>0x0341</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5700 Ultra</string>
+						</dict>
+						<key>0x0342</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5700</string>
+						</dict>
+						<key>0x0343</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5700LE</string>
+						</dict>
+						<key>0x0344</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX 5700VE</string>
+						</dict>
+						<key>0x0347</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce FX Go5700</string>
+						</dict>
+						<key>0x034C</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX Go1000</string>
+						</dict>
+						<key>0x034E</key>
+						<dict>
+							<key>name</key>
+							<string>Quadro FX 1100</string>
+						</dict>
+						<key>0x0391</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7600 GT</string>
+						</dict>
+						<key>0x0392</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7600 GS</string>
+						</dict>
+						<key>0x0393</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7300 GT</string>
+						</dict>
+						<key>0x0394</key>
+						<dict>
+							<key>name</key>
+							<string>GeForce 7600 LE</string>
+						</dict>
+						<key>0x03D0</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA GeForce 6100 nForce 430</string>
+						</dict>
+						<key>0x03D1</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA GeForce 6100 nForce 405</string>
+						</dict>
+						<key>0x03D2</key>
+						<dict>
+							<key>name</key>
+							<string>NVIDIA GeForce 6100 nForce 400</string>
+						</dict>
+					</dict>
+					<key>entriesToAdd</key>
+					<dict>
+						<key>default</key>
+						<dict>
+							<key>@0,EDID</key>
+							<data>
+							APUFS/74CBgHFPAQEBAQ
+							EBAQEBAQEBMCoAmFEAKk
+							AwcBMAUg4RAAAeAAAA/Q
+							A4Sx5RDgAKICAgICAgAA
+							AA/ABTeW5jTWFzdGVyCi
+							AgAAAA/wBINEpYQTExMj
+							I5CiAgAC
+							</data>
+							<key>@0,NVMT</key>
+							<data>
+							CgN/IEwtHAJ4BRoESAfQ
+							BWAGAABBBB0EIQQAAPDB
+							QQcAAAEAAAAA/wAAAAAA
+							AAAAAAAAAAAAAAAAAAAA
+							AAAAAAAA
+							</data>
+							<key>@0,compatible</key>
+							<string>NVDA,NVMac</string>
+							<key>@0,device_type</key>
+							<string>display</string>
+							<key>@0,fboffset</key>
+							<integer>131072</integer>
+							<key>@0,name</key>
+							<string>NVDA,Display-A</string>
+							<key>@1,EDID</key>
+							<data>
+							APUFS/74CBgHFPAQEBAQ
+							EBAQEBAQEBMCoAmFEAKk
+							AwcBMAUg4RAAAeAAAA/Q
+							A4Sx5RDgAKICAgICAgAA
+							AA/ABTeW5jTWFzdGVyCi
+							AgAAAA/wBINEpYQTExMj
+							I5CiAgAC
+							</data>
+							<key>@1,compatible</key>
+							<string>NVDA,NVMac</string>
+							<key>@1,device_type</key>
+							<string>display</string>
+							<key>@1,name</key>
+							<string>NVDA,Display-B</string>
+							<key>NVCAP</key>
+							<data>
+							BAABAAAAAwAMAAAAAAAA
+							CgAAAAA=
+							</data>
+							<key>device_type</key>
+							<string>NVDA,Parent</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>nVidia</string>
+				</dict>
+			</dict>
+			<key>entriesToAdd</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.iokit</key>
+		<string>6.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Safe Boot</string>
+</dict>
+</plist>

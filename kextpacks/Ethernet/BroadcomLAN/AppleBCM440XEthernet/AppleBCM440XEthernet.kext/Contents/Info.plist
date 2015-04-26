@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleBCM440XEthernet</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.2.0, Copyright Apple Computer, Inc. 2004-2005</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleBCM440XEthernet</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Broadcom 440x 10/100 Ethernet Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>BCM4401</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleBCM440XEthernet</string>
+			<key>IOClass</key>
+			<string>AppleBCM440XEthernet</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x02000000&amp;0xffff0000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x440114e4 0x440214e4 0x170c14e4</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.4.3</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.6</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0b2</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b2</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b2</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b2</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>

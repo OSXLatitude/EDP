@@ -1,0 +1,23 @@
+.edpmenu_title_text {	
+        font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+	color: #868B92;
+	font-weight: bold;
+	font-size: 8pt;
+	text-transform:capitalize;
+	text-transform:uppercase;
+	letter-spacing: 1pt;
+}
+
+.edpmenu_menuoption {
+	cursor: hand; cursor: pointer;
+}
+	
+.edpmenu_menuoption_text {
+        font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+	color: #000000;
+	font-size: 8pt;
+	cursor: hand; cursor: pointer;
+	line-height: 20px;	
+}
+
+
